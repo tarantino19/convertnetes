@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <script src="script.js" defer></script>
+<link rel="stylesheet" href="css/main.min.css">
+<style>
+    body {
+        background-color: rgb(243, 243, 243) !important
+    }
+</style>
+</head>
+<body>
+    <center>
+    <section class="mt-5 container bg-cool pt-5 pb-5 rounded-5 shadow">
+            <h1 class="display-5 fw-bold mb-4 text-white">KG TO LBS & LBS TO KG</h1>
+        <input
+            type="number"
+            id="input-area"
+            class="text-area text-center display-5 fw-bold pt-2 pb-4 mb-4"
+            placeholder= "0">
+        </input>
+        <h2 class="display-5">Mass (Kilograms / Pounds)</h2>
+        <p id="mass-element" class="display-5 mt-5 bg-light pt-3 pb-3 rounded-4">0 kilo = 0.000 <b>pound</b> | 0 pound = 0.000 <b>kilo</b></p>
+        <input class="btn btn-nice" id="clear" type="button" value="Clear All" onclick="location.reload ()">
+    </section>
+</center>
+</body>
+</html>

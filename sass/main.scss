@@ -1,0 +1,20 @@
+
+
+
+$bg-primary: #6610f2;
+$bg-danger: #dc3545;
+
+
+$modal-backdrop-bg : red;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$red-theme-colors: (
+    "cool": rgb(255, 77, 0),
+    "nice": pink
+    );
+
+    $theme-colors :  map-merge($red-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
